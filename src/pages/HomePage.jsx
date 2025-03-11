@@ -2,9 +2,11 @@ import About from "@/components/blocks/Home/about";
 import Activities from "@/components/blocks/Home/activities";
 
 import Banner from "@/components/blocks/Home/Banner";
+import Collab from "@/components/blocks/Home/collab";
 import Contact from "@/components/blocks/Home/contact";
-import Gallery from "@/components/blocks/Home/gallery";
-import MustVisit from "@/components/blocks/Home/mustvisit";
+import Speakers from "@/components/blocks/Home/speakers";
+
+import Venue from "@/components/blocks/Home/venue";
 
 function HomePage() {
   return (
@@ -13,9 +15,10 @@ function HomePage() {
       <div className="relative z-10">
         <Banner />
         <About />
-        {/* <Gallery /> */}
         <Activities />
-        <MustVisit />
+        <Speakers />
+        <Venue />
+        <Collab />
         <Contact />
       </div>
     </div>

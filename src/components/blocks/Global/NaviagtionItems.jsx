@@ -13,28 +13,6 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 
-const competitions = [
-  {
-    title: "ARCHIVEDA: Design Beyond Books",
-    href: "/competitions/archiveda",
-  },
-  {
-    title: "ARCHITOPIA: Architect's Dream House",
-    href: "/competitions/architopia",
-  },
-];
-
-const featured = [
-  {
-    title: "ARCHIVEDA: Design Beyond Books",
-    href: "/featured/archiveda",
-  },
-  {
-    title: "ARCHITOPIA: Architect's Dream House",
-    href: "/featured/architopia",
-  },
-];
-
 export function NavigationItems() {
   return (
     <NavigationMenu>
@@ -47,35 +25,42 @@ export function NavigationItems() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/about" passHref legacyBehavior>
+          <Link href="/#about" passHref legacyBehavior>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               About
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/soon" passHref legacyBehavior>
+          <Link href="/#activities" passHref legacyBehavior>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Activities
+              Events & Activities
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/soon" passHref legacyBehavior>
+          <Link href="/#speakers" passHref legacyBehavior>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Must Visit
+              Speakers
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/gallery" passHref legacyBehavior>
+          <Link href="/#venue" passHref legacyBehavior>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Gallery
+              Venue
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/contact" passHref legacyBehavior>
+          <Link href="/#collab" passHref legacyBehavior>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Collaboration
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <Link href="/#contact" passHref legacyBehavior>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Contact
             </NavigationMenuLink>

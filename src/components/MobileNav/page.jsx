@@ -6,37 +6,12 @@ import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 
 const navItems = [
   { title: "Home", href: "/" },
-  { title: "About", href: "/about" },
-  { title: "Resources", href: "/soon" },
-  {
-    title: "Competition",
-    subItems: [
-      {
-        title: "ARCHIVEDA: Design Beyond Books",
-        href: "/competitions/archiveda",
-      },
-      {
-        title: "ARCHITOPIA: Architect's Dream House",
-        href: "/competitions/architopia",
-      },
-    ],
-  },
-  {
-    title: "Featured",
-    subItems: [
-      {
-        title: "ARCHIVEDA: Design Beyond Books",
-        href: "/featured/archiveda",
-      },
-      {
-        title: "ARCHITOPIA: Architect's Dream House",
-        href: "/featured/architopia",
-      },
-    ],
-  },
-  { title: "Certificate", href: "/competitions/get-certificate" },
-  { title: "Gallery", href: "/gallery" },
-  { title: "Contact", href: "/contact" },
+  { title: "About", href: "/#about" },
+  { title: "Event & Activities", href: "/#activities" },
+  { title: "Speakers", href: "/#speakers" },
+  { title: "Venue", href: "/#venue" },
+  { title: "Collaboration", href: "/#collab" },
+  { title: "Contact", href: "/#contact" },
 ];
 
 function MobileNav() {

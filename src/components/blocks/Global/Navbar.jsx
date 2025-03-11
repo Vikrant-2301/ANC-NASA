@@ -5,17 +5,10 @@ import MobileNav from "@/components/MobileNav/page";
 function Navbar() {
   return (
     <nav className="flex items-center justify-center">
-      <div className="flex justify-between items-center fixed top-0 z-50 w-full bg-amber-900 text-amber-50 px-10">
-        <div className="flex space-x-8">
+      <div className="flex justify-between items-center fixed top-0 z-50 w-full bg-gray-900 text-amber-50 px-10">
+        <div className="flex space-x-8 py-4">
           <Link href="/" className="flex items-center" id="logo">
-            <Image
-              src="/assets/logo.svg" // Relative path for image
-              alt="logo"
-              className=""
-              width={100}
-              height={100}
-            />
-            <p className="font-semibold">Desert Safari</p>
+            <p className="font-semibold">NASA INDIA</p>
           </Link>
         </div>
 
