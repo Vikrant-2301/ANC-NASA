@@ -8,7 +8,7 @@ const navItems = [
   { title: "Home", href: "/" },
   { title: "About", href: "/#about" },
   { title: "Event & Activities", href: "/#activities" },
-  { title: "Speakers", href: "/#speakers" },
+  // { title: "Speakers", href: "/#speakers" },
   { title: "Venue", href: "/#venue" },
   { title: "Collaboration", href: "/#collab" },
   { title: "Contact", href: "/#contact" },

@@ -11,7 +11,7 @@ const Venue = () => {
       "/assets/lpu4.jpg",
     ],
     location: "Lovely Professional University, Punjab, India",
-    eventDuration: "4 Days (May 29 - June 1, 2025)",
+    eventDuration: "4 Days (June 12 - June 15, 2025)",
     timing: "09:00 AM - 06:00 PM",
     capacity: "6000+ attendees",
     facilities: [

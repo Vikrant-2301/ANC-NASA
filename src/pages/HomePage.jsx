@@ -16,7 +16,7 @@ function HomePage() {
         <Banner />
         <About />
         <Activities />
-        <Speakers />
+        {/* <Speakers /> */}
         <Venue />
         <Collab />
         <Contact />
